@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lead Advisors</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__logo desktop-logo">
+          <a href="/"><img src="images/logo.svg" alt="LEAD ADVISORS" /></a>
+        </div>
+        <div class="header__logo mobile">
+          <img src="images/logo-mini.svg" alt="LEAD ADVISORS" />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="main__info">
+          <h1>under construction</h1>
+          <p>We're making lots of improvements and will be back soon</p>
+        </div>
+      </div>
+      <div class="counter">
+        <div class="container">
+          <div id="group" class="counter__numbs">
+            <span
+              id="d"
+              class="counter-days badge badge-success mr-3 p-3"
+            ></span>
+            <span
+              id="h"
+              class="counter-hours badge badge-success p-3 mr-3"
+            ></span>
+            <span
+              id="m"
+              class="counter-minutes badge badge-success mr-3 p-3"
+            ></span>
+            <span id="s" class="counter-seconds badge badge-success p-3"></span>
+          </div>
+
+          <div class="counter__time">
+            <div class="time">
+              <p class="desktop">Days</p>
+              <p class="media">dd</p>
+            </div>
+            <div class="time">
+              <p class="desktop">Hours</p>
+              <p class="media">hh</p>
+            </div>
+            <div class="time">
+              <p class="desktop">Minutes</p>
+              <p class="media">mm</p>
+            </div>
+            <div class="time">
+              <p class="desktop">Seconds</p>
+              <p class="media">ss</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="event_info">
+        <p>Check our event page when you wait:</p>
+        <div class="event_info__butn">
+          <a
+            href="https://www.linkedin.com/in/kseniya-shcherbich/"
+            target="_blank"
+            >Go to the event</a
+          >
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__butn">
+        <form id="subscribe">
+          <input
+            type="email"
+            id="email"
+            class="email"
+            name="login"
+            placeholder="Enter your Email and get notified"
+            required
+          />
+          <input class="submit" type="submit" name="submit" />
+        </form>
+      </div>
+    </footer>
+    <div class="popup" id="popup">
+      <div class="modal">
+        <div class="modal_container">
+          <div class="close" id="close-popup"></div>
+          <div class="popup__success">success!</div>
+          <div class="popup__info">
+            You have successfully subscribed to the email newsletter
+          </div>
+          <div class="popup__button" id="butn-popup">Close</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
